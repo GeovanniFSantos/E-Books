@@ -20,18 +20,20 @@ body {
 }
 
 .header {
-  text-align: center;
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
   background-color: var(--bg-color);
   margin: 15px 15px;
 }
 
 .banner {
-  background-image: url('/assets//imagens/Banner-1.png');
+  background-image: url('./imagens/Banner-1.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 278px;
 }
+
+
 
 .nav {
   display: flex;
